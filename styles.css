@@ -1,26 +1,51 @@
-<!DOCTYPE html>
-<html>
+html {
+  height: 100%;
+  width: 100%;
+}
 
-<head>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>My Social Network</title>
-</head>
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
 
-<body>
-  <header>
-    <h1>My social networks</h1>
-    <img
-      src="https://static.vecteezy.com/system/resources/previews/000/229/542/non_2x/young-caucasian-woman-as-female-developer-profession-vector.jpg">
-  </header>
-  <main>
-    <ul>
-      <li><a href="https://www.facebook.com/tucuenta">Facebook</a></li>
-      <li><a href="https://www.instagram.com/tucuenta">Instagram</a></li>
-      <li><a href="https://www.twitter.com/tucuenta">Twitter</a></li>
-      <li><a href="https://www.linkedin.com/in/tucuenta">LinkedIn</a></li>
-      <!-- Puedes agregar más enlaces aquí -->
-    </ul>
-  </main>
-</body>
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px 0;
+}
 
-</html>
+h1 {
+  font-size: 28px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  display: block; /* Hace que los enlaces ocupen todo el ancho disponible y se muestren en líneas separadas */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s; /* Agrega transiciones suaves a los colores */
+  background-color: #3498db; /* Agrega un fondo azul */
+  color: #fff; /* Cambia el color del texto a blanco */
+  margin: 0 auto; /* Centra los elementos horizontalmente */
+  width: 70%; /* Establece un ancho fijo para los botones */
+  max-width: 300px; /* Establece un ancho máximo para evitar que se extiendan demasiado en pantallas más grandes */
+}
+
+a:hover {
+  background-color: #2973a9; /* Cambia el color de fondo al pasar el mouse por encima */
+}
